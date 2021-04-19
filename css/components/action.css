@@ -1,0 +1,19 @@
+.prato {
+    display: inline-flex;
+    align-items: center;
+    color:#FFFFFF; 
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;   
+}
+
+.prato::before {
+    content: "";
+    background-color:#2F80ED;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* test */
