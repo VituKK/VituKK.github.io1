@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color:#9060f0;
     box-shadow: 5px 5px 0px #000000;
@@ -10,8 +10,8 @@
     text-decoration: none;
 }
 
-.button::after,
-.button::before {
+.main-button::after,
+.main-button::before {
     content: "";
     bottom: 0;
     top: 0;
@@ -22,23 +22,23 @@
     position: absolute;
 }
 
-.button::before {
+.main-button::before {
     border-left: 2px solid black;
     border-right: 2px solid black;
     transform: scaleY(0);
 }
 
-.button::after {
+.main-button::after {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     transform: scaleX(0)
 }
 
-.button:hover::before {
+.main-button:hover::before {
     transform: scaleY(1);
 }
 
-.button:hover::after {
+.main-button:hover::after {
     transform: scaleX(1);
 }
 
