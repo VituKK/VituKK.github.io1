@@ -11,10 +11,10 @@ button {
 	font-family: inherit;
 }
 
-/*  My colors of project
-	#d860f0	rgb (216, 96, 240)	Clematis Magenta
-	#9060f0	rgb (144, 96, 240)	Lavender Indigo
-	#a848a8	rgb (168, 72, 168)	Aged Purple
-	#9030a8	rgb (144, 48, 168)	Nebula Outpost
-	#9048c0	rgb (144, 72, 192)	Liberal Lilac
-*/	
+.MyColorsOfProject {
+	color: #d860f0;
+	color: #9060f0;
+	color: #a848a8; 
+	color: #9030a8; 
+	color: #9048c0;
+ }
