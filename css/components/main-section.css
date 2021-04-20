@@ -17,3 +17,8 @@
     border-color: #970AA4;
 }
 
+.main-section.-colorAbout {
+    background-color: #943ED8;
+    border-bottom: 10px solid #000;
+}
+
