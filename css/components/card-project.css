@@ -1,6 +1,6 @@
 .card-project {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #9030a8;
     width: 280px;
