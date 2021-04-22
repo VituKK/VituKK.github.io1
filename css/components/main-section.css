@@ -17,8 +17,11 @@
     border-color: #970AA4;
 }
 
-.main-section.-colorAbout {
+.main-section.-bgSecond {
     background-color: #943ED8;
+}
+
+.main-section.-bdBlack {    
     border-bottom: 10px solid #000;
 }
 
